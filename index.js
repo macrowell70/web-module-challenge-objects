@@ -59,9 +59,9 @@ const burger = {
   category: "Lunch", 
   discount: function(buyerType) {
     if (buyerType === 'teacher' || buyerType === 'student') {
-      return this.price = 18 * .75;
+      return this.price * .75;
     } else {
-      return this.price = 18 * .9;
+      return this.price * .9;
     } 
   }
 }
