@@ -16,9 +16,13 @@ The function should:
 */
 
 
-function createMenuItem(/*Your code here*/){
-  /*Your code here*/
-}
+function createMenuItem(name, price, category){
+  let menuItem = {
+    name: name,
+    price: price,
+    category: category,
+  }; return menuItem
+  };
 
 
 
